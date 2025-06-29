@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Classy Comfort Care - Home Help Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #eee;
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 15px 20px;
+      text-decoration: none;
+      color: #333;
+    }
+    nav a:hover {
+      background: #ddd;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 20px;
+      flex: 1 1 250px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: auto;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background: #4a90e2;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #357ab7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Classy Comfort Care</h1>
+  <p>Professional Home Help Services with a Personal Touch</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+  <h2>Welcome to Classy Comfort Care</h2>
+  <p>We provide compassionate, reliable home help services to ensure comfort and dignity for your loved ones.</p>
+</div>
+
+<div class="container" id="about">
+  <h2>About Us</h2>
+  <p>Classy Comfort Care has been serving families with trusted home assistance for over 10 years. Our caregivers are experienced, certified, and dedicated to enhancing quality of life at home.</p>
+</div>
+
+<div class="container" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Personal Care</h3>
+      <p>Bathing, dressing, and grooming assistance with respect and kindness.</p>
+    </div>
+    <div class="service">
+      <h3>Companionship</h3>
+      <p>Friendly visits, conversation, and activities to brighten each day.</p>
+    </div>
+    <div class="service">
+      <h3>Household Help</h3>
+      <p>Light cleaning, laundry, and meal preparation to maintain a safe, healthy home.</p>
+    </div>
+    <div class="service">
+      <h3>Medication Reminders</h3>
+      <p>Ensuring medications are taken on time and correctly.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="testimonials">
+  <h2>Testimonials</h2>
+  <p>"Classy Comfort Care gave my mother the companionship she needed. We are so grateful!" - Sarah L.</p>
+  <p>"Professional and warm caregivers who truly care." - Mark R.</p>
+</div>
+
+<div class="container" id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required/>
+    <input type="email" placeholder="Your Email" required/>
+    <textarea placeholder="How can we help you?" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<footer>
+  &copy; 2025 Classy Comfort Care. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Thank you! Your message has been sent.");
+    this.reset();
+  });
+</script>
+
+</body>
+</html>
