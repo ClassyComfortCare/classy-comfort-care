@@ -12,24 +12,30 @@
       color: #333;
     }
     header {
-      background-color: #4a90e2;
+      background-color: #003366; /* Dark blue */
       color: #fff;
       padding: 20px;
       text-align: center;
     }
+    header img {
+      max-width: 120px;
+      display: block;
+      margin: 0 auto 10px;
+    }
     nav {
       display: flex;
       justify-content: center;
-      background: #eee;
+      background: #e0e0e0; /* Light gray */
       flex-wrap: wrap;
     }
     nav a {
       padding: 15px 20px;
       text-decoration: none;
-      color: #333;
+      color: #003366;
+      font-weight: bold;
     }
     nav a:hover {
-      background: #ddd;
+      background: #c0c0c0;
     }
     .container {
       max-width: 1200px;
@@ -46,10 +52,11 @@
       padding: 20px;
       flex: 1 1 250px;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
     footer {
-      background: #4a90e2;
+      background: #003366;
       color: white;
       text-align: center;
       padding: 15px;
@@ -68,21 +75,23 @@
       margin: 8px 0;
       border: 1px solid #ccc;
       border-radius: 4px;
+      font-size: 1em;
     }
     button {
-      background: #4a90e2;
+      background: #0055aa;
       color: white;
       border: none;
       cursor: pointer;
     }
     button:hover {
-      background: #357ab7;
+      background: #004080;
     }
   </style>
 </head>
 <body>
 
 <header>
+  <img src="logo.png" alt="Classy Comfort Care Logo"/>
   <h1>Classy Comfort Care</h1>
   <p>Professional Home Help Services with a Personal Touch</p>
 </header>
@@ -97,32 +106,56 @@
 
 <div class="container" id="home">
   <h2>Welcome to Classy Comfort Care</h2>
-  <p>We provide compassionate, reliable home help services to ensure comfort and dignity for your loved ones.</p>
+  <p>Classy Comfort Care is an approved MDHHS Home Help Agency provider proudly serving <strong>Oakland County</strong> and <strong>Wayne County</strong> in Michigan. We are dedicated to providing compassionate, reliable home care services that promote comfort, dignity, and independence.</p>
 </div>
 
 <div class="container" id="about">
   <h2>About Us</h2>
-  <p>Classy Comfort Care has been serving families with trusted home assistance for over 10 years. Our caregivers are experienced, certified, and dedicated to enhancing quality of life at home.</p>
+  <p>With over 10 years of experience, Classy Comfort Care offers professional home help services tailored to each individual's needs. Our caregivers are fully trained and certified to provide exceptional care and support to our clients in the comfort of their own homes.</p>
 </div>
 
 <div class="container" id="services">
   <h2>Our Services</h2>
   <div class="services">
     <div class="service">
-      <h3>Personal Care</h3>
-      <p>Bathing, dressing, and grooming assistance with respect and kindness.</p>
+      <h3>Light Housekeeping</h3>
+      <p>Keeping your home clean, organized, and safe.</p>
+    </div>
+    <div class="service">
+      <h3>Laundry</h3>
+      <p>Washing, drying, folding, and putting away clothing and linens.</p>
+    </div>
+    <div class="service">
+      <h3>Toileting Assistance</h3>
+      <p>Respectful help with bathroom needs.</p>
+    </div>
+    <div class="service">
+      <h3>Dispensing Medications</h3>
+      <p>Assistance ensuring medications are taken correctly and on time.</p>
+    </div>
+    <div class="service">
+      <h3>Meal Preparation</h3>
+      <p>Nutritious meal planning and cooking.</p>
+    </div>
+    <div class="service">
+      <h3>Mobility Support</h3>
+      <p>Help with walking, repositioning, and staying active.</p>
+    </div>
+    <div class="service">
+      <h3>Transferring Assistance</h3>
+      <p>Safe support moving between bed, chair, and other positions.</p>
+    </div>
+    <div class="service">
+      <h3>Bathing & Grooming</h3>
+      <p>Assistance with hygiene and personal care.</p>
+    </div>
+    <div class="service">
+      <h3>Shopping & Prescription Pick Up</h3>
+      <p>Errands to ensure you have all necessities.</p>
     </div>
     <div class="service">
       <h3>Companionship</h3>
-      <p>Friendly visits, conversation, and activities to brighten each day.</p>
-    </div>
-    <div class="service">
-      <h3>Household Help</h3>
-      <p>Light cleaning, laundry, and meal preparation to maintain a safe, healthy home.</p>
-    </div>
-    <div class="service">
-      <h3>Medication Reminders</h3>
-      <p>Ensuring medications are taken on time and correctly.</p>
+      <p>Friendly conversation and activities to brighten your day.</p>
     </div>
   </div>
 </div>
@@ -144,7 +177,7 @@
 </div>
 
 <footer>
-  &copy; 2025 Classy Comfort Care. All rights reserved.
+  &copy; 2025 Classy Comfort Care. Proudly serving Oakland County and Wayne County, Michigan.
 </footer>
 
 <script>
